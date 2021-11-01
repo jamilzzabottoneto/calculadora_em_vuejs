@@ -1,12 +1,15 @@
 <template>
   <div id="app">
-      <h1>Hello Vue.JS</h1>
+      <h1>Calculadora</h1>
+      <Calculadora/>
   </div>
 </template>
 
 <script>
-export default {
+import Calculadora from './main/Calculadora.vue'
 
+export default {
+    components:{Calculadora}
 }
 </script>
 
