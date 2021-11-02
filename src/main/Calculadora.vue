@@ -1,6 +1,6 @@
 <template>
     <div class="calculator">
-        <Display/>
+        <Display :value="1000"/>
         <Button label="AC" triple/>
         <Button label="/" operation/>
         <Button label="7" />
@@ -24,6 +24,8 @@
 <script>
 import Display from "../components/Display.vue";
 import Button from "../components/Button.vue";
+
+//Metodos
 
 export default {
   //Registrar os components
